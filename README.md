@@ -24,13 +24,23 @@ I've since picked up a Nu-Link-Pro programmer that should allow me to both see w
 TODO:
 =====
 1- Solder leads to my poker
+
 2- Use the Vortex tool to flash a known firmware file
+
 3- Dump said firmware using the Nu-Link-Pro, compare the two firmware files to check for compatibility.  
+
 4- If possible and necessary, write a tool to convert the 'dumped' to the Vortex tool format.  This would allow for programming WITHOUT the NU-Link, since the version on the chip would be in the 'programmed' state.
+
 5- Begin custom firmware development!
+
 5a- Start with getting IPS mode to work as closely to the Vortex version as possible, since hopefully this would allow us to reuse their tool to program the boards
-5b- Attempt identification of keys on board
+
+5b- Attempt identification of keys on board and dip-switches
+
 5c- write base version for key functionality
+
 5d- LEDs? (difficult, since my board doesn't have LEDs installed, might have to solder them on).
+
 5e- NKRO?
+
 5f- More firmware functionality?  Programability?  Layers? etc?
