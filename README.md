@@ -23,11 +23,11 @@ I've since picked up a Nu-Link-Pro programmer that should allow me to both see w
 
 TODO:
 =====
-1- Solder leads to my poker
+1- Solder leads to my poker (Done!)
 
-2- Use the Vortex tool to flash a known firmware file
+2- Use the Vortex tool to flash a known firmware file (Done)
 
-3- Dump said firmware using the Nu-Link-Pro, compare the two firmware files to check for compatibility.  
+3- Dump said firmware using the Nu-Link-Pro, compare the two firmware files to check for compatibility.  :: Apparently the Processor has a 'flash-lock' in place that prevents the tool from downloading firmware.  I'm going to try a USB Sniffer to see what actually gets written to the device.
 
 4- If possible and necessary, write a tool to convert the 'dumped' to the Vortex tool format.  This would allow for programming WITHOUT the NU-Link, since the version on the chip would be in the 'programmed' state.
 
